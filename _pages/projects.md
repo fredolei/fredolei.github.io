@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: transcriptions
+permalink: /transcriptions/
+description:
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: [椎名 林檎 (Sheena Ringo), 東京事変 (Tokyo Jihen), Other, fun]
 horizontal: false
 ---
 

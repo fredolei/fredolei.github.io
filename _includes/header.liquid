@@ -2,23 +2,12 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      <a class="navbar-brand" href="{{ site.baseurl }}/" style="max-width: 32px;">
+        <img src="/assets/img/gretsch.png" class="img-fluid">
+      </a>
       {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
+        <a class="navbar-brand title font-weight-bold" href="{{ site.baseurl }}/">
+          FL
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
