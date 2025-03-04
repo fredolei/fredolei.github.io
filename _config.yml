@@ -184,7 +184,7 @@ collections:
     permalink: /:collection/:title/
   projects:
     output: true
-    permalink: /transcriptions/:title/
+    permalink: /transcriptions/:path/
 
 announcements:
   enabled: false
