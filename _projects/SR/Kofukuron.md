@@ -1,11 +1,10 @@
 ---
 layout: page
-title: "丸ノ内サディスティック<br>(Marunouchi Sadistic)"
-description: Third track on album 無罪モラトリアム (Muzai Moratorium) [1999]. Full PDF with all parts. [WIP]
-img: assets/img/SR/MM/title.jpg
-importance: 3
-category: 椎名 林檎 (Sheena Ringo)
-related_publications: false
+title: "幸福論"
+description: (Kōfukuron) [1998]<br>0/2 tabs completed
+img: assets/img/SR/Kofukuron/title.jpg
+importance: 1
+category: 椎名 林檎 (Sheena Ringo) - Singles
 ---
 
 Every project has a beautiful feature showcase page.
@@ -44,8 +43,8 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">

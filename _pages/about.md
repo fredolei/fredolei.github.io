@@ -18,6 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a rising senior studying Economics and Mathematics (Joint Major) at NYU. I'm interested in the use of econometric methods to analyze policy questions, particularly those involving health, cities, and human development. At the same time, I am also pursuing a Master's Degree in Economics at NYU as part of the joint Bachelor-Master's [Program](https://cas.nyu.edu/bachmast/gsas.html) with NYU [GSAS](https://gsas.nyu.edu). I also run a Chinese cultural [club](https://www.instagram.com/nyucms/) on campus.
+I am a Master's student on the [Joint B.A./M.A.](https://cas.nyu.edu/bachmast/gsas.html) track in Economics at NYU CAS/[GSAS](https://gsas.nyu.edu). I have a rigorous background in econometrics (both applied and theoretical), and I have professional experience in the thorough application of econometric and causal inference methods to analyze policy questions, particularly those involving health, cities, and human development. I also (used to) run a Chinese cultural [club](https://www.instagram.com/nyucms/) on campus.
 
-In my free time I play guitar and transcribe music (more info on transcriptions page). I also like cycling and solo travelling to cool places.
+Check out my [resume](/resume/) page for more!
+
+In my free time I play guitar and transcribe music (more info on [transcriptions](/transcriptions/) page). I also like cycling and solo travelling to cool places.

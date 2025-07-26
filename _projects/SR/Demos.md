@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "歌舞伎町の女王<br>(Kabuki-chō No Joō)"
-description: Second track (and first single) on album 無罪モラトリアム (Muzai Moratorium) [1999]. Full PDF with all parts. [WIP]
-img: assets/img/SR/MM/title.jpg
-importance: 2
-category: 椎名 林檎 (Sheena Ringo)
+title: "デモテープ"
+description: (Demo Tape Sets 1-5) [1994-97]<br>0/72 tabs completed
+img: assets/img/SR/Demos/title.png
+importance: 1
+category: 椎名 林檎 (Sheena Ringo) - Other
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.
