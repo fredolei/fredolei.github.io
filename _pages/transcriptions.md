@@ -5,12 +5,14 @@ permalink: /transcriptions/
 description:
 nav: true
 nav_order: 2
-display_categories: [椎名 林檎 (Sheena Ringo) - Albums, 椎名 林檎 (Sheena Ringo) - Singles, 椎名 林檎 (Sheena Ringo) - Other, 東京事変 (Tokyo Jihen), Other, fun]
+display_categories: [椎名 林檎 (Sheena Ringo) - Albums, 椎名 林檎 (Sheena Ringo) - Singles, 椎名 林檎 (Sheena Ringo) - Other, 東京事変 (Tokyo Jihen) - Albums, 東京事変 (Tokyo Jihen) - Singles, Other, fun]
 horizontal: false
 ---
 since ultimate guitar has paywalled the ability to print and download tabs, i'll be storing all of my guitar pro tabs here. when it is done all of them should be available with full pdfs, part-wise pdfs, and associated videos. i focus mainly on tabs for Sheena Ringo and her backing band Tokyo Jihen as high quality tabs for their works are very hard to find, and their arrangements are decently complex. all of my tabs are free to use and always will be, but please give credit since it is a pretty big time commitment :)
 
 categories are organized by release (either single, album, or set) below, in chronological order. click on each box to access the songlist.
+
+<h5 markdown="1">newest tab: [罪と罰](./SR/SS/07/)</h5>
 
 <!-- pages/projects.md -->
 <div class="projects">

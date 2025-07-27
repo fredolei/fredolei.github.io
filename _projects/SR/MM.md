@@ -2,7 +2,7 @@
 layout: page
 title: "無罪モラトリアム"
 description: (Muzai Moratorium) [1999]<br>3/11 tabs completed
-img: assets/img/SR/MM/title.png
+img: assets/img/SR/MM/title.jpg
 importance: 1
 category: 椎名 林檎 (Sheena Ringo) - Albums
 giscus_comments: false

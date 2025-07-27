@@ -8,74 +8,159 @@ category: 椎名 林檎 (Sheena Ringo) - Other
 giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Note: these tabs are low priority! Don't expect them soon!
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<h1><b>Disc 01</b></h1>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<h3 markdown="1">01. あおぞら</h3>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<h3 markdown="1">02. ヘッドフォン</h3>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<h3 markdown="1">03. 白い絵とギター</h3>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<h3 markdown="1">04. ここでキスして。</h3>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<h3 markdown="1">05. 時が暴走する</h3>
 
-{% raw %}
+<h3 markdown="1">06. Now I'm Seventeen</h3>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+<h3 markdown="1">07. 酸素をください</h3>
 
-{% endraw %}
+<h3 markdown="1">08. How Are You</h3>
+
+<h3 markdown="1">09. 大丈夫</h3>
+
+<h3 markdown="1">10. Marvelous Day</h3>
+
+<h3 markdown="1">11. Don't You Think</h3>
+
+<h3 markdown="1">12. Girl</h3>
+
+<h3 markdown="1">13. Love Plus Peace</h3>
+
+<h3 markdown="1">14. 出直すから</h3>
+
+<h3 markdown="1">15. あの子を前にして</h3>
+
+<h3 markdown="1">16. 受話器の中</h3>
+
+<h3 markdown="1">17. Jesus Loves Me</h3>
+
+
+<h1><b>Disc 02</b></h1>
+
+<h3 markdown="1">01. 輪廻ハイライト</h3>
+
+<h3 markdown="1">02. 同じ夜</h3>
+
+<h3 markdown="1">03. 果物の部屋</h3>
+
+<h3 markdown="1">04. 歌舞伎町の女王</h3>
+
+<h3 markdown="1">05. 月に負け犬</h3>
+
+<h3 markdown="1">06. Σ</h3>
+
+<h3 markdown="1">07. 幸福論</h3>
+
+<h3 markdown="1">08. アイデンティティ</h3>
+
+<h3 markdown="1">09. Lay Down</h3>
+
+<h3 markdown="1">10. New Way to Fly</h3>
+
+<h3 markdown="1">11. シャンプー</h3>
+
+<h3 markdown="1">12. サカナ</h3>
+
+<h3 markdown="1">13. リモートコントローラー</h3>
+
+<h3 markdown="1">14. 闇に降る雨</h3>
+
+<h3 markdown="1">15. Before You Walk Out of My Life</h3>
+
+<h1><b>Disc 03</b></h1>
+
+<h3 markdown="1">01. 17</h3>
+
+<h3 markdown="1">02. Marvelous Day</h3>
+
+<h3 markdown="1">03. ヘッドフォン</h3>
+
+<h3 markdown="1">04. Take It!</h3>
+
+<h3 markdown="1">05. 受話器の中</h3>
+
+<h3 markdown="1">06. Someday</h3>
+
+<h3 markdown="1">07. ここでキスして。</h3>
+
+<h3 markdown="1">08. あの子を前にして</h3>
+
+<h3 markdown="1">09. 海軍ポリティシャン</h3>
+
+<h3 markdown="1">10. Highway</h3>
+
+<h3 markdown="1">11. この木何の木</h3>
+
+<h3 markdown="1">12. 大丈夫</h3>
+
+<h3 markdown="1">13. 時が暴走する</h3>
+
+<h3 markdown="1">14. 出直すから</h3>
+
+<h3 markdown="1">15. 白い絵とギター (Live)</h3>
+
+<h3 markdown="1">16. How Are You</h3>
+
+<h3 markdown="1">17. Jesus</h3>
+
+<h3 markdown="1">18. モルヒネ (Live)</h3>
+
+<h3 markdown="1">19. Don't You Think</h3>
+
+<h3 markdown="1">20. あおぞら</h3>
+
+<h1><b>Disc 04</b></h1>
+
+<h3 markdown="1">01. ネガティブ</h3>
+
+<h3 markdown="1">02. アンコンディショナル・ラブ</h3>
+
+<h1><b>Disc 05</b></h1>
+
+<h3 markdown="1">01. 正しい街</h3>
+
+<h3 markdown="1">02. 歌舞伎町の女王</h3>
+
+<h3 markdown="1">03. ヘッドフォン</h3>
+
+<h3 markdown="1">04. シドと白昼夢</h3>
+
+<h3 markdown="1">05. 本能</h3>
+
+<h3 markdown="1">06. オルゴール</h3>
+
+<h3 markdown="1">07. すべりだい</h3>
+
+<h3 markdown="1">08. ギャンブル</h3>
+
+<h3 markdown="1">09. リモートコントローラー</h3>
+
+<h3 markdown="1">10. Lay Down</h3>
+
+<h3 markdown="1">11. 警告</h3>
+
+<h3 markdown="1">12. 同じ夜</h3>
+
+<h3 markdown="1">13. 幸福論</h3>
+
+<h3 markdown="1">14. A New Way to Fly</h3>
+
+<h3 markdown="1">15. アイデンティティ</h3>
+
+<h3 markdown="1">16. 果物の部屋</h3>
+
+<h3 markdown="1">17. 輪廻ハイライト</h3>
+
+<h3 markdown="1">18. アンコンディショナル・ラブ</h3>

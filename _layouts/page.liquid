@@ -7,12 +7,6 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-
-
-  <article>
-    {{ content }}
-  </article>
-
   {% if page.tab %}
     <div class="container mt-5">
       <div id="alphaTabWrapper" data-tab-file="{{ page.tab_file | prepend: '/assets/tabs/' }}">
@@ -20,6 +14,12 @@ layout: default
       </div>
     </div>
   {% endif %}
+
+  <article>
+    {{ content }}
+  </article>
+
+
 
   {% if page.related_publications %}
     <h2>References</h2>
