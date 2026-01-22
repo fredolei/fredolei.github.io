@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "私と放電"
-description: (Watashi to Hōden) [2008]<br>1/22 tabs completed
+description: (Watashi to Hōden) [2008]<br>2/22 tabs completed
 img: assets/img/SR/WH/title.png
 importance: 3
 category: 椎名 林檎 (Sheena Ringo) - Other
@@ -12,7 +12,7 @@ giscus_comments: false
 
 <h3 markdown="1">01. すべりだい</h3>
 
-<h3 markdown="1">02. アンコンディショナル・ラブ</h3>
+<h3 markdown="1">02. [アンコンディショナル・ラブ](./02/)</h3>
 
 <h3 markdown="1">03. リモートコントローラー</h3>
 
