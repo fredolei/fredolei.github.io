@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "大人"
-description: (Adult) [2006]<br>3/11 tabs completed
+description: (Adult) [2006]<br>4/11 tabs completed
 img: assets/img/TJ/Otona/title.png
 importance: 2
 category: 東京事変 (Tokyo Jihen) - Albums
@@ -26,7 +26,7 @@ giscus_comments: false
 
 <h3 markdown="1">08. ブラックアウト</h3>
 
-<h3 markdown="1">09. 黄昏泣き</h3>
+<h3 markdown="1">09. [黄昏泣き](./09/)</h3>
 
 <h3 markdown="1">10. [透明人間](./10/)</h3>
 

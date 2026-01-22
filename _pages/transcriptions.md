@@ -12,7 +12,7 @@ since ultimate guitar has paywalled the ability to print and download tabs, i'll
 
 categories are organized by release (either single, album, or set) below, in chronological order. click on each box to access the songlist.
 
-<h5 markdown="1">newest tab: [罪と罰](./SR/SS/07/)</h5>
+<h5 markdown="1">newest tab: [黄昏泣き](./TJ/Otona/09/)</h5>
 
 <!-- pages/projects.md -->
 <div class="projects">
