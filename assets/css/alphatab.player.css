@@ -325,7 +325,7 @@
   font-size: 14px;
 }
 
-/* AlphaTab Engine Highlights */
+/* Cursor */
 .at-cursor-bar {
   background: var(--global-theme-color);
   opacity: 0.1;
@@ -346,7 +346,7 @@
   stroke: var(--global-theme-color);
 }
 
-/* Volume Slider Input Styling */
+/* Volume Slider */
 .at-volume-slider {
   accent-color: var(--global-theme-color);
 }
