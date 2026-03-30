@@ -44,11 +44,18 @@
   ],
   "publications": [
     {
+      "name": "Illicit drug supply, naloxone availability, and overdose mortality in the fentanyl era: A systematic review",
+      "publisher": "Health Affairs Scholar",
+      "releaseDate": "Mar 2026",
+      "url": "https://doi.org/10.1093/haschl/qxag074",
+      "summary": "Author for Correspondence: Mehrdad Khezri"
+    },   
+    {
       "name": "Proportion of Fentanyl Reports in Illicit Drug Seizures and Opioid Mortality",
       "publisher": "JAMA Health Forum",
-      "releaseDate": "2026",
+      "releaseDate": "Jan 2026",
       "url": "https://jamanetwork.com/journals/jama-health-forum/fullarticle/2843827",
-      "summary": "Author of Correspondence: Prof. Alex Dahlen"
+      "summary": "Author for Correspondence: Alex Dahlen"
     }   
   ],
   "projects": [

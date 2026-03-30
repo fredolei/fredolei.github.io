@@ -23,3 +23,5 @@ I am a Master's student on the [Joint B.A./M.A.](https://cas.nyu.edu/bachmast/gs
 Check out my [cv](/cv/) page for more!
 
 In my free time I play guitar and transcribe music (more info on [transcriptions](/transcriptions/) page). I also like cycling and solo travelling to cool places (when money permits).
+
+I will be joining the [MIT Sloan Applied Economics Group](https://mitsloan.mit.edu/faculty/academic-groups/applied-economics/about-applied-economics) as a predoctoral research associate working with Prof. Mert Demirer and Prof. Catherine Wolfram!

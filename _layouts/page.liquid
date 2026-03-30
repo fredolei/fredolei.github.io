@@ -7,13 +7,13 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-  {% if page.tab %}
-    <div class="container mt-5">
-      <div id="alphaTabWrapper" data-tab-file="{{ page.tab_file | prepend: '/assets/tabs/' }}">
-        {% include tab.liquid %}
-      </div>
+{% if page.tab_file %}
+  <div class="container-fluid mt-5">
+    <div id="alphaTabWrapper" data-tab-file="{{ page.tab_file | prepend: '/assets/tabs/' }}">
+      {% include tab.liquid %}
     </div>
-  {% endif %}
+  </div>
+{% endif %}
 
   <article>
     {{ content }}
