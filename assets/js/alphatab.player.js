@@ -183,15 +183,9 @@ const progressBar = wrapper.querySelector(".at-progress-bar");
 let songEndTime = 0;
 
 api.playerPositionChanged.on((e) => {
-    // 1. Progress Bar (Your existing code)
     songEndTime = e.endTime;
     const percentage = (e.currentTime / e.endTime) * 100;
     progressBar.style.width = percentage + "%";
-
-    // 2. The Sheet Music Cursor
-    const cursor = document.querySelector('.at-cursor-bar');
-
-    // 3. Auto-scroll the page as it plays
     const viewport = document.querySelector('.at-viewport');
 });
 

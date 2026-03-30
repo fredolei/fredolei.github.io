@@ -327,11 +327,13 @@
 
 /* AlphaTab Engine Highlights */
 .at-cursor-bar {
-  background: rgba(var(--global-theme-color), 0.1);
+  background: var(--global-theme-color);
+  opacity: 0.1;
 }
 
 .at-selection div {
-  background: rgba(var(--global-theme-color), 0.2);
+  background: var(--global-theme-color);
+  opacity: 0.2;
 }
 
 .at-cursor-beat {
