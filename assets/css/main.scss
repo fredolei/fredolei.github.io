@@ -11,10 +11,8 @@ $max-content-width: {{ site.max_width }};
   "themes",
   "layout",
   "base",
-  "distill",
   "cv",
   "tabs",
-  "typograms",
   "font-awesome/fontawesome",
   "font-awesome/brands",
   "font-awesome/solid",
@@ -23,3 +21,8 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.photo-row > [class*="col-"] { display: flex; }
+.photo-row figure { width: 100%; margin-bottom: 0; }
+.photo-row .photo-img { width: 100%; height: 100%; object-fit: cover; }
+

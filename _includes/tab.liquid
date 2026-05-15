@@ -1,6 +1,6 @@
-<script src="https://cdn.jsdelivr.net/npm/@coderline/alphatab@latest/dist/alphaTab.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@coderline/alphatab@1.6.3/dist/alphaTab.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/alphatab.player.css">
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/alphatab.player.css' | relative_url | bust_file_cache }}">
 
 <div class="tab-container">
     <div class="at-cursor-bar at-selection at-cursor-beat at-highlight" style="display: none !important;"></div>
@@ -115,4 +115,4 @@
     </div>
 </template>
 
-<script src="/assets/js/alphatab.player.js"></script>
+<script src="{{ '/assets/js/alphatab.player.js' | relative_url | bust_file_cache }}"></script>

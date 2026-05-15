@@ -1,13 +1,15 @@
 // initialize alphatab
 const wrapper = document.querySelector(".at-wrap");
 const main = wrapper.querySelector(".at-main");
-const filePath = document.getElementById("alphaTabWrapper").dataset.tabFile;
+const alphaTabWrapper = document.getElementById("alphaTabWrapper");
+const filePath = alphaTabWrapper.dataset.tabFile;
+const soundFontPath = alphaTabWrapper.dataset.soundfont;
 
 const settings = {
     file: filePath,
     player: {
         enablePlayer: true,
-        soundFont: "/assets/soundfonts/font.sf2",
+        soundFont: soundFontPath,
         scrollElement: wrapper.querySelector('.at-viewport')
     },
 };
@@ -104,19 +106,26 @@ api.scoreLoaded.on((score) => {
     wrapper.querySelector(".at-song-title").innerText = score.title;
     wrapper.querySelector(".at-song-artist").innerText = score.artist;
 
-    // Clear and Generate Tracks
+    // generate Tracks
     trackList.innerHTML = "";
     score.tracks.forEach((track) => {
         
-        // add auto-fix for weird organ
-        const isOrgan = track.playbackInfo.program === 19 || track.name.toLowerCase().includes('organ');
-        if (isOrgan) {
-            track.playbackInfo.program = 16; // swap to hammond
-            track.playbackInfo.volume = 12;  // set to quarter volume
+        // add indiv. instrument fixes
+        if (track.playbackInfo.program === 19) {
+            //track.playbackInfo.program = 16; // swap to hammond
+            track.playbackInfo.volume = 10;  // set to slightly lower volume
+        }
+        if (track.playbackInfo.program === 0 && !track.name.toLowerCase().includes("drum")) {
+            track.playbackInfo.volume = 10;  // set to slightly lower volume
+        }
+        if (track.playbackInfo.program === 53) {
+            //track.playbackInfo.program = 68; // swap to oboe
+            track.playbackInfo.volume = 15;  // set to slightly higher volume
         }
         
         trackList.appendChild(createTrackItem(track));
     });
+
 });
 
 api.renderStarted.on(() => {

@@ -11,7 +11,8 @@
       "studyType": "M.A.",
       "startDate": "Sep 2024",
       "endDate": "May 2026",
-      "score": "4.0"
+      "score": "4.0",
+      "courses": ["TA: ECON-UA 18 Statistics (P), Spring 2026"]
     },
     {
       "institution": "College of Arts and Science, New York University",
@@ -44,19 +45,12 @@
   ],
   "publications": [
     {
-      "name": "Illicit drug supply, naloxone availability, and overdose mortality in the fentanyl era: A systematic review",
-      "publisher": "Health Affairs Scholar",
-      "releaseDate": "Mar 2026",
-      "url": "https://doi.org/10.1093/haschl/qxag074",
-      "summary": "Author for Correspondence: Mehrdad Khezri"
-    },   
-    {
-      "name": "Proportion of Fentanyl Reports in Illicit Drug Seizures and Opioid Mortality",
-      "publisher": "JAMA Health Forum",
-      "releaseDate": "Jan 2026",
-      "url": "https://jamanetwork.com/journals/jama-health-forum/fullarticle/2843827",
-      "summary": "Author for Correspondence: Alex Dahlen"
-    }   
+      "name": "click here",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "/publications/",
+      "summary": ""
+    }
   ],
   "projects": [
     {

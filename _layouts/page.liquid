@@ -7,9 +7,22 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-{% if page.tab_file %}
+{% if page.tab and page.tab_file %}
   <div class="container-fluid mt-5">
-    <div id="alphaTabWrapper" data-tab-file="{{ page.tab_file | prepend: '/assets/tabs/' }}">
+    <div class="mb-3">
+      <a
+        class="btn btn-sm tab-download-btn"
+        href="{{ page.tab_file | prepend: '/assets/tabs/' | relative_url }}"
+        download="{{ page.tab_file | split: '/' | last }}"
+      >
+        <i class="fas fa-download"></i> Download .gp file
+      </a>
+    </div>
+    <div
+      id="alphaTabWrapper"
+      data-tab-file="{{ page.tab_file | prepend: '/assets/tabs/' | relative_url }}"
+      data-soundfont="{{ '/assets/soundfonts/font.sf2' | relative_url }}"
+    >
       {% include tab.liquid %}
     </div>
   </div>

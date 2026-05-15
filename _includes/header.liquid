@@ -86,8 +86,7 @@
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
-                  {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  <a class="nav-link" href="{{ p.url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
@@ -105,18 +104,17 @@
               </button>
             </li>
           {% endif %}
-          {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
-              </button>
-            </li>
-          {% endif %}
         </ul>
       </div>
+      {% if site.enable_darkmode %}
+        <div class="d-flex align-items-center ml-2">
+          <button id="light-toggle" type="button" title="Change theme" aria-label="Change theme">
+            <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+            <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+            <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+          </button>
+        </div>
+      {% endif %}
     </div>
   </nav>
   {% if site.enable_progressbar %}
