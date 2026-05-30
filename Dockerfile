@@ -1,4 +1,4 @@
-FROM ruby:latest
+FROM ruby:3.3
 ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
@@ -7,6 +7,7 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     locales \
     imagemagick \
     build-essential \
+    nodejs \
     zlib1g-dev \
     jupyter-nbconvert \
     inotify-tools procps && \
@@ -37,5 +38,6 @@ RUN bundle install --no-cache
 EXPOSE 8080
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
+RUN sed -i 's/\r$//' /tmp/entry_point.sh && chmod +x /tmp/entry_point.sh
 
 CMD ["/tmp/entry_point.sh"]
